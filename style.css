@@ -20,7 +20,7 @@ body {
 }
 
 .nav-button-course {
-  display: block;
+  display: inline-block;
   background-color: crimson;
   color: white;
   padding: 0.5em 1em;
