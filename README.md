@@ -6,7 +6,7 @@ This website is a clone of a popular edutech startup
 
 The main objective of this project is to practice the UI design 
 
-#Technology
+# Technology
 
 I have use HTML5 and pure CSS3
 
