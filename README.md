@@ -8,5 +8,5 @@ The main objective of this project is to practice the UI design
 
 # Technology
 
-I have use HTML5 and pure CSS3
+I have used HTML5 and pure CSS3
 
