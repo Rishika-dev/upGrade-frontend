@@ -194,11 +194,24 @@ border-radius: 1em 1em 0 0;
   border-radius: 0.3em;
   margin: 0 1em;
 }
+
+.explore-more-courses-btn{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.explore-more-courses-btn a{
+  background-color: crimson;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
 @media(max-width: 675px){
   .course-imgs{
     display: flex;
     flex-direction: column;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
   }
   .course-img{
     border-radius: 1em 1em 0 0;
@@ -225,13 +238,14 @@ border-radius: 1em 1em 0 0;
     background-color: aliceblue;
     padding: 0.5em;
   }
+
 }
 
-@media(max-width:1000px){
+@media(max-width:1040px){
   .course-imgs{
     display: flex;
     flex-direction: column;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
   }
   .c-i1, .c-i2, .c-i3{
     margin:1em;
