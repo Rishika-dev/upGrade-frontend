@@ -259,24 +259,27 @@ border-radius: 1em 1em 0 0;
 
 
 .section-3-content-parent{
-  /* display: flex; */
+  display: flex;
   background-color: rgb(232, 226, 226);
-  padding: 1em;
+  justify-content: center;
+
 }
-/* flex-wrap: wrap; */
 .section-3-content{
   display: flex;
-
+  max-width: 90%;  
 }
 
-.section-3-content-parent img{
+.section-3-content img{
   width:100%;
-  max-width: 70%;
   border-radius: 1em;
   padding:0.2em ;
 }
+.s3-c1, .s3-c2, .s3-c3{
+padding:0;
+  margin: 1em;
 
-.section-3-content-parent a{
+}
+.section-3-content a{
   position: absolute;
   margin:0.8em;
   padding: 1em;
