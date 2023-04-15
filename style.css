@@ -261,12 +261,13 @@ border-radius: 1em 1em 0 0;
 .section-3-content-parent{
   display: flex;
   background-color: rgb(232, 226, 226);
-  justify-content: center;
-
+  /* justify-content: center; */
+  
 }
 .section-3-content{
   display: flex;
-  max-width: 90%;  
+  max-width: 70%;  
+  margin:  0 12em;
 }
 
 .section-3-content img{
@@ -279,6 +280,7 @@ padding:0;
   margin: 1em;
 
 }
+
 .section-3-content a{
   position: absolute;
   margin:0.8em;
@@ -296,23 +298,20 @@ padding:0;
     display: flex;
     flex-direction: column;
     background-color: rgb(232, 226, 226);
-    padding: 1em;
+    padding: 0;
+    margin: 0 auto;
   }
   .section-3-content-parent{
     
     background-color: rgb(232, 226, 226);
-    padding: 1em;
   }
   .section-3-content-parent img{
-    width:100%;
-    max-width: 100%;
     border-radius: 1em;
-    padding:0.2em ;
+    padding:0;
   }
   .section-3-content-parent a{
     position: absolute;
     margin:1.3em;
-    padding: 1em;
     background-color: RGBA(255, 255, 255, 0.5);
     border-radius: 0.5em;
     color: whitesmoke;
